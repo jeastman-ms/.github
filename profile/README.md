@@ -10,15 +10,17 @@ En esta Organiazión se agrupa un conjunto de repositorios con los recursos nece
 
 El proyecto en general estará integrado por los Microservicios:
 
-* Usuarios
-* Categorías
-* Productos
-* Ventas
+* Users
+* Categories and Products
+* Sales
 
-**Usuario:** Este micro servicio servirá para gestionar los usuarios, los permisos y autoizaciones de los usuarios.
-**Categorías:** Este micro servicio servirá para gestionar las categorías de los productos.
-**Productos:** Este micro servicio servirá para gestionar los productos.
-**Ventas:** Este micro servicio servirá para gestionar las ventas.
+* **Users:** Este micro servicio servirá para gestionar los usuarios, los permisos y autoizaciones de los usuarios.
+* **Categories and Products:** Este micro servicio servirá para gestionar las categorías y los productos.
+* **Ventas:** Este micro servicio servirá para gestionar las ventas.
+
+Adicional a los Microservicios existen otros repositorios
+
+* **docker-compose:** Código yaml para orquestar los Microservicios y demás artefactos para ejecutarlos simultaneamente
 
 
 <!--
